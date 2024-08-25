@@ -1,6 +1,8 @@
 function es_bisiesto(year){
-    if(year === 2000){
+    if(year % 400 == 0){
         return true;
+    }else{
+        return false;
     }
 }
 
