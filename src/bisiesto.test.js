@@ -10,4 +10,7 @@ describe("Calcular", () => {
   it("3: Deberia marcar 1700 como NO bisiesto", () => {
     expect(es_bisiesto(1700)).toEqual(false);
   });
+  it("4: Deberia marcar 2016 como bisiesto", () => {
+    expect(es_bisiesto(2016)).toEqual(true);
+  });
 });
