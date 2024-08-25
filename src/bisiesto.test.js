@@ -7,5 +7,7 @@ describe("Calcular", () => {
   it("2: Deberia marcar cualquier año dividido por 400 como bisiesto", () => {
     expect(es_bisiesto(1600)).toEqual(true);
   });
-
+  it("3: Deberia marcar 1700 como NO bisiesto", () => {
+    expect(es_bisiesto(1700)).toEqual(false);
+  });
 });
