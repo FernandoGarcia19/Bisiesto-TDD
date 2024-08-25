@@ -5,7 +5,7 @@ function es_bisiesto(year){
         return true;
     }
     else{
-        return false
+        return false;
     }
 }
 
